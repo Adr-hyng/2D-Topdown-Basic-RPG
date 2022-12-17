@@ -118,7 +118,7 @@ class Menu {
 	}
 	
 	public void openShop() {
-		// Test Last
+		// Test Last Meow
 		boolean onShop = true;
 		int shopSelection;
 		this.inventory = this.user.getInventory();
