@@ -118,6 +118,7 @@ class Menu {
 	}
 	
 	public void openShop() {
+		// Test Last
 		boolean onShop = true;
 		int shopSelection;
 		this.inventory = this.user.getInventory();
