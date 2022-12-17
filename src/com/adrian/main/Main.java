@@ -118,6 +118,7 @@ class Menu {
 	}
 	
 	public void openShop() {
+		// Test Comment
 		boolean onShop = true;
 		int shopSelection;
 		this.inventory = this.user.getInventory();
@@ -225,7 +226,6 @@ class Menu {
 		int inventorySelection;
 		
 		while(onShowInventory) {
-			
 			System.out.println("\nInventory Menu");
 			System.out.println("1. Show Items");
 			System.out.println("2. Go Back");
