@@ -95,7 +95,7 @@ public class DatabaseManager {
 		String url = "jdbc:mysql://localhost:3306/";
 		String databaseName = "testdemo";
 		String username = "root";
-		String password = "09214277942Ate";
+		String password = "";
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			connection = DriverManager.getConnection(url + databaseName, username, password);
